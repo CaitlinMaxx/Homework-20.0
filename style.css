@@ -1,0 +1,68 @@
+
+.navbar-light .navbar-brand {
+    color: white;
+    background-color: darkmagenta;
+    padding: 20px;
+}
+.bg-light{
+    background-color: rgb(249, 235, 249)!important;
+}
+.navbar{
+    padding: 0px 10px;
+}
+h1{
+    padding: 20px 70px;
+}
+img{
+    float: left;
+    padding: 10px 50px 10px 70px;
+}
+.form{
+    padding: 10px 70px 10px 70px;
+}
+p{
+    font-size: larger;
+    padding: 10px 70px 10px 70px;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20px;
+  }
+
+.project {
+    padding-bottom: 20px
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(174, 41, 174);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+}
+@media screen and (max-width: 768){
+    img{
+        float: none;
+        width: 100%;
+        padding: 10px 50px 10px 50px;
+    }
+    p{
+        float: none;
+        padding: 10px 50px 10px 50px;
+}
+}
